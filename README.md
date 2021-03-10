@@ -1,1 +1,1 @@
-# 365-days-programming: solving one problem per day series: 
+# Daily coding problem: solving one problem per day series: 
