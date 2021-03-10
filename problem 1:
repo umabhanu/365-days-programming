@@ -1,0 +1,16 @@
+public void findelements(int[] arr, int val)
+{ 
+  int n=arr.length;
+  int[] a=new int[n];
+   a= Arrays.sort(arr);
+   int low=a[0];
+   for(int i=1;i<n;i++)
+   {
+     if(low+a[n-i]==val)
+       System.out.println("elements are" +low +" " +a[n-i]);
+     else if(low+a[n]<val)
+          low=a[n-i];
+     else
+         continue;
+   }
+ }
